@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600&family=Eczar&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: "Eczar";
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: rgb(193, 249, 223);
+  min-height: 100vh;
+}
+
+.profile-card {
+  margin-left: auto;
+  border: 2px solid black;
+  margin-right: auto;
+  max-width: 350px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.profile-card .rotate-arrow img {
+  display: block;
+  width: 50px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.profile-card .profile-picture img {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+.profile-card .profile-form {
+  margin-top: 25px;
+}
+
+.profile-card .profile-form input {
+  display: block;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.profile-card .profile-form .button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.profile-card .profile-form .button-container button {
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 15px;
+  display: block;
+  width: 48%;
+  cursor: pointer;
+}
+
+.profile-card .profile-form .button-container .cancel-btn {
+  background-color: rgb(253, 97, 97);
+  color: white;
+}
+
+.profile-card .profile-form .button-container .cancel-btn:hover {
+  background-color: rgb(253, 49, 49);
+
+}
+
+.profile-card .profile-form .button-container .save-btn {
+  background-color: rgb(135, 161, 253);
+  color: white;
+}
+
+.profile-card .profile-form .button-container .save-btn:hover {
+  background-color: rgb(93, 128, 255);
+}
